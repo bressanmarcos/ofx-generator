@@ -6,7 +6,7 @@ providing type safety and validation for OFX data structures.
 """
 
 from datetime import date
-from enum import Enum, auto
+from enum import Enum
 
 
 class TransactionType(str, Enum):
