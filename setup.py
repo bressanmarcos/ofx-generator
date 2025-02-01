@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 # Read the version from the version file
 version = {}
@@ -7,7 +7,7 @@ with open("ofx_generator/__version__.py") as fp:
 
 setup(
     name="ofx-generator",
-    version=version['__version__'],
+    version=version["__version__"],
     author="Marcos Bressan",
     author_email="bressan@dee.ufc.br",
     description="A library for generating OFX files.",
@@ -20,5 +20,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7',
+    python_requires=">=3.7",
 )
