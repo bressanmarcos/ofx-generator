@@ -14,7 +14,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/bressanmarcos/ofx-generator",
-    packages=find_packages(),
+    packages=find_packages(include=["ofx-generator*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
