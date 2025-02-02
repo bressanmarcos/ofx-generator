@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-02-02)
+
+### Bug Fixes
+
+- **setup**: Add files to package
+  ([`7a1219f`](https://github.com/bressanmarcos/ofx-generator/commit/7a1219f20527933ad25bb92dc59eede6716eba73))
+
+
 ## v0.1.0 (2025-02-01)
 
 ### Chores
